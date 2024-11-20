@@ -1,6 +1,17 @@
 public class Main{
     public static void main(String[]args){
-        Sign a = new Sign(null, 0);
-        System.out.println(a);
+        int x;
+        Sign sign1 = new Sign("ABC222DE", 3);
+        x = sign1.numberOfLines();
+        System.out.println(x);
+        String str;
+        str = sign1.getLines();
+        System.out.println(str);
+        Sign sign2 = new Sign("ABCD",10);
+        x = sign2.numberOfLines();
+        System.out.println(x);
+        str = sign2.getLines();
+        System.out.println(str);
+
     }
 }
